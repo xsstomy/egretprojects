@@ -1,0 +1,38 @@
+{
+  "skins": {
+    "eui.Button": "resource/eui_skins/ButtonSkin.exml",
+    "eui.CheckBox": "resource/eui_skins/CheckBoxSkin.exml",
+    "eui.HScrollBar": "resource/eui_skins/HScrollBarSkin.exml",
+    "eui.HSlider": "resource/eui_skins/HSliderSkin.exml",
+    "eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
+    "eui.Panel": "resource/eui_skins/PanelSkin.exml",
+    "eui.ProgressBar": "resource/eui_skins/ProgressBarSkin.exml",
+    "eui.RadioButton": "resource/eui_skins/RadioButtonSkin.exml",
+    "eui.Scroller": "resource/eui_skins/ScrollerSkin.exml",
+    "eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
+    "eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
+    "eui.VSlider": "resource/eui_skins/VSliderSkin.exml"
+  },
+  "exmls": [
+    {
+      "path": "resource/mySkins/gameOverSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"gameOverSkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Button id=\"playAgainBtn\" label=\"按钮\" y=\"654\" width=\"157\" height=\"73\" horizontalCenter=\"0.5\" locked=\"true\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"playAgainBtn_png\" source.down=\"playAgainBtn_png\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<e:Group id=\"resultGroup\" width=\"449\" height=\"495\" y=\"97\" x=\"16\">\n\t\t<e:Image source=\"noticeBg_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t\t<e:Image id=\"result\" source=\"succeededNotice_png\" y=\"178\" horizontalCenter=\"0\"/>\n\t</e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/mySkins/gamePlayingSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"gamePlayingSkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"bg\" source=\"bg_png\" x=\"0\" y=\"0\" locked=\"true\"/>\n\t<e:Image id=\"bg1\" source=\"bg_png\" x=\"0\" y=\"-800\" locked=\"true\"/>\n\t<e:Image id=\"roadblock\" source=\"startLine_png\" x=\"80\" y=\"416\" locked=\"true\"/>\n\t<e:Image id=\"carlight\" source=\"carLight_png\" x=\"281\" y=\"450\" locked=\"true\"/>\n\t<e:Image id=\"hero\" source=\"hero_png\" x=\"288\" y=\"486\" locked=\"true\"/>\n\t<e:Group id=\"carLayer\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Image id=\"distanceBg\" source=\"roadnumBg_png\" y=\"52\" right=\"0\" locked=\"true\"/>\n\t<e:Image id=\"timeBg\" source=\"timenumBg_png\" y=\"52\" left=\"0\" locked=\"true\"/>\n\t<e:BitmapLabel id=\"distanceNum\" x=\"353\" y=\"88\" font=\"roadnum_fnt\" text=\"0\" width=\"167\" height=\"44\" scaleX=\"0.8\" scaleY=\"0.8\" locked=\"true\"/>\n\t<e:BitmapLabel id=\"timeNum\" x=\"77\" y=\"90\" width=\"226\" height=\"41\" font=\"timenum_fnt\" scaleX=\"0.5\" scaleY=\"0.5\" locked=\"true\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/mySkins/gameStartSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"gameStartSkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\"\n        xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"bg\" source=\"bg_png\" width=\"480\" x=\"0\" height=\"800\" y=\"0\" locked=\"true\" />\n\t<e:Image id=\"roadblock\" source=\"startLine_png\" x=\"80\" y=\"416\" locked=\"true\" />\n\t<e:Image id=\"hero\" source=\"hero_png\" x=\"287\" y=\"488\" locked=\"true\" />\n\t<e:Image id=\"carlight\" source=\"carLight_png\" x=\"281\" y=\"450\" locked=\"true\" />\n\t<e:Button id=\"startBtn\" label=\"按钮\" y=\"679\" width=\"183\" height=\"63\" horizontalCenter=\"0.5\"\n\t          locked=\"true\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"startGameBtn_png\" source.down=\"startGameBtn_png\" />\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "resource/mySkins/loadingUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"loadingUISkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"loadingBg\" source=\"loadingBg_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Group id=\"loadingGroup\" width=\"85\" height=\"74\" x=\"79\" y=\"333\">\n\t\t<e:Image source=\"loadingCar_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t\t<e:Label id=\"loadingText\" text=\"0%\" top=\"0\" size=\"29\" width=\"64\" x=\"19\"/>\n\t</e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/mySkins/ttttSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"ttttSkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:Image source=\"timenumBg_png\" x=\"2\" y=\"56\"/>\n\t<e:BitmapLabel x=\"92\" y=\"98\" width=\"156\" height=\"56\" font=\"timenum_fnt\" text=\"601\" scaleX=\"0.5\" scaleY=\"0.5\"/>\n</e:Skin>"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+"resources":
+	[
+        {"name":"asset","type":"sheet","url":"assets/asset.json"},
+		{"name":"roadNum","type":"sheet","url":"assets/roadNum.json"},
+		{"name":"timeNum","type":"sheet","url":"assets/timeNum.json"},
+		{"name":"startnumber","type":"sheet","url":"assets/startnumber.json"},
+		{"name":"loadingbg","type":"image","url":"assets/loadingbg.png"},
+		{"name":"loadingcar","type":"image","url":"assets/loadingcar.png"},
+		{"name":"tishi","type":"image","url":"assets/tishi.png"},
+		{"name":"startnum1","type":"image","url":"assets/startnum1.png"},
+		{"name":"startnum2","type":"image","url":"assets/startnum2.png"},
+		{"name":"startnum3","type":"image","url":"assets/startnum3.png"},
+		{"name":"color1","type":"image","url":"assets/color1.png"},
+		{"name":"color2","type":"image","url":"assets/color2.png"},
+		{"name":"color3","type":"image","url":"assets/color3.png"},
+		{"name":"color4","type":"image","url":"assets/color4.png"},
+		{"name":"go","type":"image","url":"assets/go.png"},
+		{"name":"startcar","type":"image","url":"assets/startcar.png"}
+	],
+
+"groups":
+	[
+        {"name":"preload","keys":"startcar,asset,roadNum,timeNum,startnumber,tishi,startnum3,startnum2,startnum1,color1,color2,color3,color4,go"},
+		{"name":"loadui","keys":"loadingbg,loadingcar"}
+	]
+}

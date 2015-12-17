@@ -1,0 +1,7 @@
+{"resources":[
+            {"url":"assets/res.json","type":"sheet","name":"res_json"}
+         ],
+    "groups":[
+        {"name":"gameres","keys":"res_json"}
+        ]
+}
