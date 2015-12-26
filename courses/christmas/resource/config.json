@@ -1461,14 +1461,8 @@
 			"key":"two1010_png"
 		}],
 		"sort":0
-	},
-	{
-		"gap":4,
-		"name":"eee",
-		"res":[],
-		"sort":0
 	}],
-	"publishCopyAll":true,
+	"publishCopyAll":false,
 	"publishPath":"/Users/xiashishi/github/codingmyegretprojects/christmas/christmas/resource_Publish/",
 	"sourcePath":"/Users/xiashishi/github/codingmyegretprojects/christmas/christmas/resource/",
 	"unPackGroup":[
