@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="resource/myassets/loginBg.png" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Image id="loginLogo" source="resource/myassets/loginLogo.png" horizontalCenter="0" top="100" locked="true"/>
+	<e:Image id="loginNoticeBg" source="resource/myassets/loginCodeBg.png" horizontalCenter="0" bottom="36" locked="true"/>
+	<e:Image id="loginLoginBtn" source="resource/myassets/loginLoginBg.png" width="500" horizontalCenter="0" bottom="388" locked="true"/>
+	<e:Image top="551" horizontalCenter="0" source="resource/myassets/registerItemBg.png" x="10" y="10" locked="true"/>
+	<e:Image id="loginPsw" source="resource/myassets/loginPsw.png" left="70" top="570" locked="true"/>
+	<e:Image source="resource/myassets/registerItemBg.png" horizontalCenter="0" top="491" locked="true"/>
+	<e:Image id="loginPhone" source="resource/myassets/loginPhone.png" left="70" top="503" locked="true"/>
+	<e:Label id="loginLoginLabel" text="登录" y="700" horizontalCenter="0"/>
+	<e:Label id="loginRegiterBtn" text="快速注册" textColor="0x000000" left="70" bottom="341" locked="true"/>
+	<e:Label id="loginFogetPsdBtn" text="忘记密码?" right="70" textColor="0xFF9600" bottom="341" locked="true"/>
+	<e:Label id="loginNoticeCont" text="用验证码登录" horizontalCenter="0" textColor="0xFF5E49" bottom="46" locked="true"/>
+	<e:TextInput id="loginPhoneInput" y="501" left="108" textColor="0xcccccc" prompt="请输入手机号码" enabled="true" locked="true"/>
+	<e:TextInput id="loginPsdInput" left="108" top="564" textColor="0xcccccc" prompt="请输入密码" displayAsPassword="true" locked="true"/>
+	<e:Label id="loginGetCode" text="获取验证码" textColor="0xFF5E49" right="70" top="570" visible="false" locked="true"/>
+	<e:Label id="loginErrorNotice" y="418" horizontalCenter="0" textColor="0xFF5E49"/>
+</e:Skin>

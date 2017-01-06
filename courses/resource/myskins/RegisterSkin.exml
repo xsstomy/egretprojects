@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RegisterSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="resource/myassets/registerBg.png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="registerRegisBtn" source="resource/myassets/registerRegisterBg.png" horizontalCenter="-2" top="530"/>
+	<e:Image source="resource/myassets/regiterItemBg.png" horizontalCenter="0" top="400"/>
+	<e:Image horizontalCenter="0" source="resource/myassets/regiterItemBg.png" x="10" top="299"/>
+	<e:Image horizontalCenter="0" source="resource/myassets/regiterItemBg.png" x="20" top="199"/>
+	<e:Image horizontalCenter="0" source="resource/myassets/regiterItemBg.png" x="30" top="99"/>
+	<e:Label text="注册" horizontalCenter="0" top="548" size="36"/>
+	<e:Label text="确认密码" left="20" size="36" textColor="0x686868" top="427"/>
+	<e:Label size="36" left="20" textColor="0x686868" text="设置密码" x="10" top="328"/>
+	<e:Label left="20" textColor="0x686868" text="验证码" size="36" x="20" top="228"/>
+	<e:Label textColor="0x686868" text="手机号码" size="36" left="20" x="30" top="128"/>
+	<e:TextInput id="registerPhoneInput" textColor="0xb3b3b3" prompt="请输入手机号码" left="192" top="119" bottom="957" right="148"/>
+	<e:TextInput id="registerCodeInput" prompt="请输入验证码" textColor="0xb3b3b3" left="192" top="215" bottom="861" width="280"/>
+	<e:TextInput id="registerPsdInput" prompt="密码为6到20位字母和数字组成" textColor="0xb3b3b3" displayAsPassword="true" left="192" right="148" top="315" bottom="761"/>
+	<e:TextInput id="registerRepeatPwdInput" prompt="请再次输入密码" textColor="0xb3b3b3" displayAsPassword="true" top="415" bottom="661" left="192" right="148"/>
+	<e:Label id="registerGetCodeBtn" text="获取验证码" textColor="0xFF9600" right="20" top="233"/>
+	<e:Label id="registerErrorNotice" y="36" horizontalCenter="1" textColor="0xFF5E49"/>
+	<e:Label id="returnLoginBtn" text="返回登录" textColor="0x000000" top="627" right="18" left="502"/>
+</e:Skin>

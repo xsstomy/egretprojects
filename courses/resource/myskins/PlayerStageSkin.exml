@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlayerStageSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="resource/myassets/playerBg.png" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="playerTopGroup" height="80" left="0" right="0">
+		<e:Image source="resource/myassets/playerTopBg.png" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="resource/myassets/playerTopInfo.png" left="26" top="10"/>
+		<e:Image source="resource/myassets/playerTopPhone.png" left="20" top="44"/>
+		<e:Image source="resource/myassets/playerTopLogo.png" verticalCenter="0" right="80"/>
+		<e:Label id="playerTopInfoLabel" textColor="0x333333" text="爱飞的小鱼儿" left="70" top="8" size="28"/>
+		<e:Label id="playerTopPhoneLabel" text="13163262534" textColor="0x333333" left="70" top="42" size="28"/>
+	</e:Group>
+	<e:Scroller id="playerDataScroller" left="0" right="0" top="80" bottom="406">
+		<e:Group>
+			<e:List id="playerDataList" left="0" right="0" top="0" bottom="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="playerStarGroup" height="194" left="0" right="0" top="730">
+		<e:Image source="resource/myassets/playerStarBg.png" left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="playerStarUnit" source="resource/myassets/playerNumUnit.png" verticalCenter="0" right="20"/>
+		<e:Image id="playerStarTen" source="resource/myassets/playerNumTen.png" verticalCenter="0" left="346"/>
+		<e:Image id="playerStarKilo" source="resource/myassets/playerNumKilo.png" verticalCenter="0" left="20"/>
+		<e:Image id="playerStarHundreds" source="resource/myassets/playerNumHundred.png" verticalCenter="0" left="185"/>
+		<e:Label id="unitTopLabel" text="0" textColor="0xFFD44F" size="20" left="558" top="26" bottom="148" right="65"/>
+		<e:Label id="unitLeftLabel" textColor="0xFFD44F" text="0" size="20" left="518" right="105" top="109" bottom="65"/>
+		<e:Label id="unitRightLabel" textColor="0xFFD44F" text="0" size="20" left="598" right="25" top="109" bottom="65"/>
+		<e:Label id="tenTopLabel" text="0" textColor="0xFFC949" size="20" left="400" right="229" top="27" bottom="147"/>
+		<e:Label id="tenLeftLabel" textColor="0xFFC949" text="0" size="20" top="113" bottom="61" left="358" right="271"/>
+		<e:Label id="tenRightLabel" textColor="0xFFC949" text="0" size="20" left="438" right="191" top="113" bottom="61"/>
+		<e:Label id="hundredsTopLabel" text="0" size="20" textColor="0xFF9A49" left="235" right="394" top="28" bottom="146"/>
+		<e:Label id="hundredsLeftLabel" textColor="0xFF9A49" text="0" size="20" left="195" right="434" top="108" bottom="66"/>
+		<e:Label id="hundredsRightLabel" textColor="0xFF9A49" text="0" size="20" left="275" right="354" top="108" bottom="66"/>
+		<e:Label id="kiloTopLabel" text="0" size="20" textColor="0xFF5E49" left="72" top="31" bottom="143" right="557"/>
+		<e:Label id="kiloLeftLabel" textColor="0xFF5E49" text="0" right="597" size="20" left="32" top="111" bottom="63" x="10" y="10"/>
+		<e:Label id="kiloRightLabel" textColor="0xFF5E49" text="0" right="517" size="20" left="112" top="111" y="20" bottom="63" x="20"/>
+	</e:Group>
+	<e:Group id="playerCatchGroup" left="0" right="0" top="926" bottom="100">
+		<e:Image id="playerCatchBtn" source="resource/myassets/playerCatchBtn.png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group id="playerCatchResGroup" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Image id="playerGoCatchBtn" source="resource/myassets/goOnCatchBtn.png" verticalCenter="0" right="20"/>
+			<e:Image id="playerImproveLeveBtn" source="resource/myassets/improveStarLevelBtn.png" verticalCenter="0" left="20"/>
+			<e:Label id="playerImproveLevNum" text="2" textColor="0xFFF000" left="122" verticalCenter="0"/>
+		</e:Group>
+		<e:Image id="playerCatchBtnMask" verticalCenter="0" horizontalCenter="0" source="resource/myassets/catchBtnMask.png" visible="false"/>
+	</e:Group>
+	<e:Group id="playerBottomGroup" height="100" left="0" right="0" bottom="0">
+		<e:Image source="resource/myassets/playerBottomBg.png" left="0" right="0" top="0" bottom="0"/>
+		<e:Image id="playerRankList" source="resource/myassets/rankListNormal.png" verticalCenter="0" left="80"/>
+		<e:Image id="playerCatchLabel" source="resource/myassets/catchLabelNormal.png" verticalCenter="0" horizontalCenter="0"/>
+		<e:Image id="playerMine" source="resource/myassets/mineNormal.png" verticalCenter="0" right="80"/>
+	</e:Group>
+</e:Skin>
