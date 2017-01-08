@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <e:Skin class="PlayerStageSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="resource/myassets/playerBg.png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="resource/myassets/playerBg.png" left="0" top="0" width="100%" height="100%"/>
 	<e:Group id="playerTopGroup" height="80" left="0" right="0">
 		<e:Image source="resource/myassets/playerTopBg.png" left="0" right="0" top="0" bottom="0"/>
 		<e:Image source="resource/myassets/playerTopInfo.png" left="26" top="10"/>
@@ -8,39 +8,54 @@
 		<e:Image source="resource/myassets/playerTopLogo.png" verticalCenter="0" right="80"/>
 		<e:Label id="playerTopInfoLabel" textColor="0x333333" text="爱飞的小鱼儿" left="70" top="8" size="28"/>
 		<e:Label id="playerTopPhoneLabel" text="13163262534" textColor="0x333333" left="70" top="42" size="28"/>
+		<e:Label text="奖卡" textColor="0xFF9600" size="20" right="20" top="19" width="43"/>
+		<e:Label id="playerUserGoldNum" text="0个" right="28" size="20" textColor="0xFF9600" top="46"/>
 	</e:Group>
-	<e:Scroller id="playerDataScroller" left="0" right="0" top="80" bottom="406">
+	<e:Image source="resource/myassets/scrollerHeader.png" left="0" top="90" bottom="996" width="100%"/>
+	<e:Scroller id="playerDataScroller" left="0" top="140" bottom="110" width="100%">
 		<e:Group>
 			<e:List id="playerDataList" left="0" right="0" top="0" bottom="0"/>
 		</e:Group>
 	</e:Scroller>
-	<e:Group id="playerStarGroup" height="194" left="0" right="0" top="730">
-		<e:Image source="resource/myassets/playerStarBg.png" left="0" right="0" top="0" bottom="0"/>
-		<e:Image id="playerStarUnit" source="resource/myassets/playerNumUnit.png" verticalCenter="0" right="20"/>
-		<e:Image id="playerStarTen" source="resource/myassets/playerNumTen.png" verticalCenter="0" left="346"/>
-		<e:Image id="playerStarKilo" source="resource/myassets/playerNumKilo.png" verticalCenter="0" left="20"/>
-		<e:Image id="playerStarHundreds" source="resource/myassets/playerNumHundred.png" verticalCenter="0" left="185"/>
-		<e:Label id="unitTopLabel" text="0" textColor="0xFFD44F" size="20" left="558" top="26" bottom="148" right="65"/>
-		<e:Label id="unitLeftLabel" textColor="0xFFD44F" text="0" size="20" left="518" right="105" top="109" bottom="65"/>
-		<e:Label id="unitRightLabel" textColor="0xFFD44F" text="0" size="20" left="598" right="25" top="109" bottom="65"/>
-		<e:Label id="tenTopLabel" text="0" textColor="0xFFC949" size="20" left="400" right="229" top="27" bottom="147"/>
-		<e:Label id="tenLeftLabel" textColor="0xFFC949" text="0" size="20" top="113" bottom="61" left="358" right="271"/>
-		<e:Label id="tenRightLabel" textColor="0xFFC949" text="0" size="20" left="438" right="191" top="113" bottom="61"/>
-		<e:Label id="hundredsTopLabel" text="0" size="20" textColor="0xFF9A49" left="235" right="394" top="28" bottom="146"/>
-		<e:Label id="hundredsLeftLabel" textColor="0xFF9A49" text="0" size="20" left="195" right="434" top="108" bottom="66"/>
-		<e:Label id="hundredsRightLabel" textColor="0xFF9A49" text="0" size="20" left="275" right="354" top="108" bottom="66"/>
-		<e:Label id="kiloTopLabel" text="0" size="20" textColor="0xFF5E49" left="72" top="31" bottom="143" right="557"/>
-		<e:Label id="kiloLeftLabel" textColor="0xFF5E49" text="0" right="597" size="20" left="32" top="111" bottom="63" x="10" y="10"/>
-		<e:Label id="kiloRightLabel" textColor="0xFF5E49" text="0" right="517" size="20" left="112" top="111" y="20" bottom="63" x="20"/>
-	</e:Group>
-	<e:Group id="playerCatchGroup" left="0" right="0" top="926" bottom="100">
-		<e:Image id="playerCatchBtn" source="resource/myassets/playerCatchBtn.png" horizontalCenter="0" verticalCenter="0"/>
-		<e:Group id="playerCatchResGroup" left="0" right="0" top="0" bottom="0" visible="false">
+	<e:Group id="playerCatchGroup" top="730" left="0" right="0" bottom="100">
+		<e:Image source="resource/myassets/playerBg.png" left="0" right="0" top="0" bottom="0"/>
+		<e:Group id="playerCatchBtnLabelGroup" left="0" right="0" top="204" bottom="2">
+			<e:Image id="playerCatchBtn" source="resource/myassets/playerCatchBtn.png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="playerCatchBtnLabel" text="抓住按钮不放手" bold="true" verticalCenter="0" horizontalCenter="0"/>
+			<e:Label id="playerCatchExpendStarNum" text="x1" textColor="0xFFF000" width="44" top="51" horizontalCenter="-202"/>
+			<e:Image id="playerCatchBtnMask" verticalCenter="0" horizontalCenter="0" source="resource/myassets/catchBtnMask.png" visible="false"/>
+		</e:Group>
+		<e:Group id="playerCatchResGroup" left="0" right="0" top="204" bottom="2" visible="false">
 			<e:Image id="playerGoCatchBtn" source="resource/myassets/goOnCatchBtn.png" verticalCenter="0" right="20"/>
 			<e:Image id="playerImproveLeveBtn" source="resource/myassets/improveStarLevelBtn.png" verticalCenter="0" left="20"/>
 			<e:Label id="playerImproveLevNum" text="2" textColor="0xFFF000" left="122" verticalCenter="0"/>
 		</e:Group>
-		<e:Image id="playerCatchBtnMask" verticalCenter="0" horizontalCenter="0" source="resource/myassets/catchBtnMask.png" visible="false"/>
+		<e:Image source="resource/myassets/playerStarBg.png" left="0" top="0" right="0" bottom="110"/>
+		<e:Group id="playerStarGroup" top="0" bottom="110" width="640" horizontalCenter="0">
+			<e:Image id="playerStarUnit" source="resource/myassets/playerNumUnit.png" left="509" bottom="22" top="22" width="111"/>
+			<e:Image id="playerStarTen" source="resource/myassets/playerNumTen.png" left="346" top="21" bottom="20"/>
+			<e:Image id="playerStarKilo" source="resource/myassets/playerNumKilo.png" left="20" top="22" bottom="22"/>
+			<e:Image id="playerStarHundreds" source="resource/myassets/playerNumHundred.png" left="185" top="21" bottom="20"/>
+			<e:Label id="unitTopLabel" text="0" textColor="0xFFD44F" size="20" top="26" bottom="148" right="65" width="17"/>
+			<e:Label id="unitLeftLabel" textColor="0xFFD44F" text="0" size="20" right="105" top="109" bottom="65" width="17"/>
+			<e:Label id="unitRightLabel" textColor="0xFFD44F" text="0" size="20" right="25" top="109" bottom="65" width="17"/>
+			<e:Label id="tenTopLabel" text="0" textColor="0xFFC949" size="20" left="400" right="229" top="27" bottom="147"/>
+			<e:Label id="tenLeftLabel" textColor="0xFFC949" text="0" size="20" top="113" bottom="61" left="358" right="271"/>
+			<e:Label id="tenRightLabel" textColor="0xFFC949" text="0" size="20" left="438" right="191" top="113" bottom="61"/>
+			<e:Label id="hundredsTopLabel" text="0" size="20" textColor="0xFF9A49" left="235" right="394" top="28" bottom="146"/>
+			<e:Label id="hundredsLeftLabel" textColor="0xFF9A49" text="0" size="20" left="195" right="434" top="108" bottom="66"/>
+			<e:Label id="hundredsRightLabel" textColor="0xFF9A49" text="0" size="20" left="275" right="354" top="108" bottom="66"/>
+			<e:Label id="kiloTopLabel" text="0" size="20" textColor="0xFF5E49" left="72" top="31" bottom="143" right="557"/>
+			<e:Label id="kiloLeftLabel" textColor="0xFF5E49" text="0" right="597" size="20" left="32" top="111" bottom="63" x="10" y="10"/>
+			<e:Label id="kiloRightLabel" textColor="0xFF5E49" text="0" right="517" size="20" left="112" top="111" y="20" bottom="63" x="20"/>
+			<e:Label id="unitCenterLabel" text="0" right="65" left="558" top="76" bottom="90"/>
+			<e:Label id="tenCenterLabel" left="396" text="0" right="227" top="76" bottom="90" x="10" y="10"/>
+			<e:Label id="hundredsCenterLabel" left="235" text="0" right="388" y="20" top="76" bottom="90" x="20"/>
+			<e:Label id="kiloCenterLabel" left="69" y="30" text="0" right="554" top="78" bottom="88" x="30"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
 	</e:Group>
 	<e:Group id="playerBottomGroup" height="100" left="0" right="0" bottom="0">
 		<e:Image source="resource/myassets/playerBottomBg.png" left="0" right="0" top="0" bottom="0"/>
