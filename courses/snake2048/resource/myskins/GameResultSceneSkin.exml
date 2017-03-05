@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameResultSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="resultLabel" text="成功" y="252" horizontalCenter="0"/>
+	<e:Label id="returnHomeBtn" text="返回" x="109" y="645"/>
+	<e:Label id="restartBtn" text="继续" x="397.42" y="645" anchorOffsetY="0" height="30"/>
+</e:Skin>

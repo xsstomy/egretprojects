@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameResultFailSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="resource/myassets/fail.png" x="58" y="66" width="518" height="357"/>
+	<e:Image source="resource/myassets/restart.png" x="46" y="736" width="207" height="140" id="restart"/>
+	<e:Image source="resource/myassets/returnHome.png" x="372" y="734" width="231" height="142" id="returnHome"/>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GamePlaygroundSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="playgroundGroup" height="704" anchorOffsetY="0" left="0" right="0" top="0">
+		<e:Image source="resource/myassets/playGround.png" right="0" top="0" left="0" bottom="49"/>
+	</e:Group>
+	<e:Group id="gameBtnsGroup" height="432" anchorOffsetY="0" left="0" right="0" bottom="0">
+		<e:Label  text="左" left="33" verticalCenter="0"/>
+		<e:Label  text="上" y="122" left="106"/>
+		<e:Label  text="右" x="184" verticalCenter="0"/>
+		<e:Label  text="下" y="278" left="106"/>
+		<e:Label  text="开始" x="414" y="84"/>
+		<e:Label text="暂停" x="414" y="188"/>
+		<e:Label  text="结束" x="414" y="308"/>
+		<e:Image source="resource/myassets/btnGround.png" left="0" right="0" top="-66" bottom="0"/>
+		<e:Image source="resource/myassets/top.png" x="140" y="16" width="127" height="127" id="topBtn"/>
+		<e:Image source="resource/myassets/left.png" x="10" y="158" width="125" height="121" id="leftBtn"/>
+		<e:Image source="resource/myassets/bottom.png" x="138" y="282" width="129" height="125" id="bottomBtn"/>
+		<e:Image source="resource/myassets/right.png" x="262" y="146" width="123" height="123" id="rightBtn"/>
+		<e:Image source="resource/myassets/start.png" x="422" y="26" width="189" height="124" id="startGameBtn"/>
+		<e:Image source="resource/myassets/pause.png" x="420" y="178" width="189" height="106" id="pauseGameBtn" />
+		<e:Image source="resource/myassets/over.png" x="416" y="316" width="191" height="110" id="overGameBtn"/>
+	</e:Group>
+</e:Skin>

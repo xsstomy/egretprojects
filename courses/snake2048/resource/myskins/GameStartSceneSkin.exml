@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameStartSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	
+	<e:Image source="resource/myassets/gameIntroduce.png" x="41" y="243" width="567" height="243" id="gameIntroduceBtn"/>
+	<e:Image source="resource/myassets/startGame.png" x="69" y="526" width="508" height="205" id="gameStartBtn"/>
+	<e:Image source="resource/myassets/aboutUs.png" x="54" y="804" width="511" height="187" id="aboutUs"/>
+</e:Skin>
