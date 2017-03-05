@@ -1,6 +1,6 @@
 {
 	"groups":[{
-			"keys":"checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,1024_png,128_png,16_png,2_png,2048_png,256_png,32_png,512_png,64_png,8_png,aboutUs_png,bottom_png,btnGround_png,carryOn_png,fail_png,gameIntroduce_png,left_png,over_png,pause_png,pauseMusic_png,playGround_png,playMusic_png,restart_png,returnHome_png,right_png,start_png,startGame_png,top_png,4_png,successful_png",
+			"keys":"checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,1024_png,128_png,16_png,2_png,2048_png,256_png,32_png,512_png,64_png,8_png,aboutUs_png,bottom_png,btnGround_png,carryOn_png,fail_png,gameIntroduce_png,left_png,over_png,pause_png,pauseMusic_png,playGround_png,playMusic_png,restart_png,returnHome_png,right_png,start_png,startGame_png,top_png,4_png,successful_png,snakeHeader_png",
 			"name":"preload"
 		}],
 	"resources":[
@@ -270,11 +270,6 @@
 			"url":"myassets/startGame.png"
 		},
 		{
-			"name":"Successful_png",
-			"type":"image",
-			"url":"myassets/Successful.png"
-		},
-		{
 			"name":"top_png",
 			"type":"image",
 			"url":"myassets/top.png"
@@ -288,6 +283,11 @@
 			"name":"4_png",
 			"type":"image",
 			"url":"myassets/4.png"
+		},
+		{
+			"name":"snakeHeader_png",
+			"type":"image",
+			"url":"myassets/snakeHeader.png"
 		}
 	]
 }
